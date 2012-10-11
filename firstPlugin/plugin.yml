@@ -1,0 +1,31 @@
+name: firstPlugin
+author: Andrew Zorn
+main: com.github.andrewzorn.firstPlugin.firstPlugin
+version: 1.0
+
+commands:
+  getLessHungry:
+    description: Replenishes food.
+    usage: /getLessHungry
+    permission: firstPlugin.*
+    permission-message: You don't have permission.
+  getFixedUp:
+    description: Replenishes health.
+    usage: /getFixedUp
+    permission: firstPlugin.*
+    permission-message: You don't have permission.
+  spareChange:
+    description: Gives stuff if poor.
+    usage: /spareChange
+    permission: firstPlugin.*
+    permission-message: You don't have permission.
+  getPaid:
+    description: Gives nice stuff.
+    usage: /getPaid
+    permission: firstPlugin.*
+    permission-message: You don't have permission.
+
+permissions:
+  firstPlugin.*:
+    description: Permissions.
+    default: true
